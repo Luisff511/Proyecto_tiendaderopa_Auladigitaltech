@@ -1,0 +1,50 @@
+body {
+  background-image: url("imagenes/fondo6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.nombre {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.apellidos {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.email {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.telefono {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.consulta {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.linkinicio {
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  position: bottom;
+}
+.botones {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
