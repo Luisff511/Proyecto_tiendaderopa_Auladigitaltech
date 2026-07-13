@@ -1,2 +1,1 @@
 # Proyecto_tiendaderopa_Auladigitaltech
-# Proyecto_tiendaderopa_Auladigitaltech
