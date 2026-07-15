@@ -19,7 +19,7 @@ h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
 }
-.imagen1 {
+.img-fluid {
   text-align: center;
 }
 .item1 {
@@ -30,18 +30,12 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-.imagen2 {
-  text-align: center;
-}
 .item2 {
   background-color: rgba(22, 21, 21, 0.5);
   text-align: center;
   font-family: sans-serif;
   font-size: 35px;
   color: rgb(255, 255, 255);
-}
-.imagen3 {
-  text-align: center;
 }
 .item3 {
   background-color: rgba(22, 21, 21, 0.5);
@@ -50,12 +44,7 @@ h2 {
   font-size: 35px;
   color: rgb(255, 255, 255);
 }
-.imagen4 {
-  text-align: center;
-}
-.imagen5 {
-  text-align: left;
-}
+
 .item4 {
   background-color: rgba(22, 21, 21, 0.5);
   text-align: center;
