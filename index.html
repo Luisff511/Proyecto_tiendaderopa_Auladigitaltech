@@ -1,22 +1,60 @@
 <!DOCTYPE html>
   <title>Tienda de Ropa Luis</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <ol class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="Contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AcercaDe.html">Sobre nosotros</a>
+        </li>
+      </ol>
+  </head> 
 <body>
   <h1>TU ROPA AL MEJOR PRECIO</h1>
   <h2><i>Bienvenido a nuestra tienda de ropa aquí 
-    encontrarás lo mejor en moda y estilo.</i></h2>
+    encontrarás lo mejor en moda y estilo.</i>
+  </h2>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/mundial-2026-eeuu-canada-mexico-1200x630.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/españaganamundial.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/balon-mundial.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 <!-- PRODUCTO 1 -->
         <div 
         class="item1"><b>CAMISETA MUJER : 12,99 €</b>
-        </div>
-          <div class="imagen1">
-          <img width="260" src=imagenes/camiseta_mujer2.jpg >
-          <img width="260" src=imagenes/camiseta_mujer.jpg >
-          <img width="260" src=imagenes/camiseta_mujer3.jpg >
+          <div class="img-fluid">
+          <img width="260" src=imagenes/CAMISETA_MUJER2.JPG >
+          <img width="260" src=imagenes/CAMISETA_MUJER.JPG >
+          <img width="260" src=imagenes/CAMISETA_MUJER3.JPG >
         </div>
 <!-- PRODUCTO 2 -->
         <div class="item2"><b>PANTALÓN MUJER : Precio:21,99 €</b>
         </div>
-          <div class="imagen2">
+          <div class="img-fluid">
           <img width="250" src=imagenes/pantalonmujer.jpg >
           <img width="250" src=imagenes/pantalonmujer2.jpg >
           <img width="250" src=imagenes/pantalonmujer3.jpg >
@@ -25,7 +63,7 @@
         <div 
           class="item3"><b>CAMISETA HOMBRE : 13,99 €</b>
         </div>
-        <div class="imagen3">
+        <div class="img-fluid">
           <img width="250" src=imagenes/camisetahombre2.jpg >
           <img width="236.5" src=imagenes/camisetahombre4.jpg >
           <img width="250" src=imagenes/camisetahombre3.jpg >
@@ -33,7 +71,7 @@
 <!-- PRODUCTO 4 -->
         <div class="item4"><b>PANTALÓN HOMBRE : Precio:17,99 €</b></div>
         </div>
-          <div class="imagen4">
+          <div class="img-fluid">
           <img width="250" src=imagenes/pantalonhombre.jpg >
           <img width="250" src=imagenes/pantalonhombre2.jpg >
           <img width="250" src=imagenes/pantalonhombre3.jpg >
@@ -41,11 +79,11 @@
 
 <link rel="stylesheet" href="estiloinicio.css">
 </body>
-<footer>
-    <div class="linksinicio">
-          <p>Página creada con fines educativos.<br>
-¿Tienes alguna consulta?, ponte en contacto a través de nuestro formulario de contacto pulsando aquí: <a href="Contacto.html">CONTACTO</a> 
-          </p>
-    </div>    
+<footer class="footer">
+<p>
+  Página creada con fines educativos.<br>
+</p>
 </footer>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html> 
